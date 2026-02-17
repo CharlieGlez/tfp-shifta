@@ -25,6 +25,6 @@
     "tailwindcss": "^4.1.18"
   },
   "scripts": {
-  "dev": "npx tailwindcss -c ./config/tailwind.config.js -i ./src/input.css -o ./dist/output.css --watch"
+  "dev": "npx tailwindcss -c ./.gitignore/config/tailwind.config.js -i ./.gitignore/src/input.css -o ./src/css/output.css --watch"
   }
 }
